@@ -1,0 +1,25 @@
+.container {
+  max-width: 66.66rem;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+.flex {
+  display: flex;
+  height: 100vh;
+  &__jcc {
+    justify-content: center;
+  }
+  &__aic {
+    align-items: center;
+  }
+  &__fdc {
+    flex-direction: column;
+  }
+}
+
+.ta {
+  &__center {
+    text-align: center;
+  }
+}
